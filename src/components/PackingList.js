@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Item } from "./Item";
+import Item  from "./Items";
 
-export function PackingList({ items, onDeleteItems, onToggleItems, onClearList }) {
+export default function PackingList({ items, onDeleteItems, onToggleItems, onClearList }) {
   const [sortBy, setSortBy] = useState("input");
 
   let sortedItems;

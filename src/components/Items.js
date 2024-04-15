@@ -1,5 +1,5 @@
 
-export function Item({ item, onDeleteItems, onToggleItems }) {
+export default function Items({ item, onDeleteItems, onToggleItems }) {
   return (
     <li>
       <input

@@ -1,4 +1,4 @@
-export function States({ items }) {
+export default function States({ items }) {
   if (!items.length)
     return (
       <p className="stats">
